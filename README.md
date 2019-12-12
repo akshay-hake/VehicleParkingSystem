@@ -1,5 +1,5 @@
 # VehicleParkingSystem
-Web application for Vehicle Parking using JSP and MySQL Database.
+Web application for Vehicle Parking using MySQL Database and java server pages(jsp).
 
 There are two web apps: 1] for Driver(Employee or Visitor)       2] for Administrator
 
