@@ -1,0 +1,2 @@
+select slot_no from slot where slot.slot_no>="+sl+" and slot.slot_no<="+sh+" and slot_no not in (select slot_no from entry_detail where (arrival_time<=STR_TO_DATE('"+dpt+"', '%Y-%m-%d %H:%i:%s') and departure_time>=STR_TO_DATE('"+dpt+"', '%Y-%m-%d %H:%i:%s'))  or (arrival_time<=STR_TO_DATE('"+art+"', '%Y-%m-%d %H:%i:%s') and departure_time>=STR_TO_DATE('"+art+"', '%Y-%m-%d %H:%i:%s')) or (arrival_time>=STR_TO_DATE('"+art+"', '%Y-%m-%d %H:%i:%s') and departure_time<=STR_TO_DATE('"+dpt+"', '%Y-%m-%d %H:%i:%s')));
+
