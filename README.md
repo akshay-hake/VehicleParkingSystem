@@ -6,7 +6,7 @@ There are two web apps: 1] for Driver(Employee or Visitor)       2] for Administ
 1] Web app for Driver: UserParking
 
     * Visitor or Employee can login through this app and able to book their parking slot for particular amount of time.     
-    * For visitor, First he have to send request to admin for a specific day(s) . If admin accepted that request then only he can book a slot.         
+    * For visitor, First he have to send request to admin for a specific day(s) . If admin accept that request, then only Visitor can book a slot for that day.         
     * Driver can cancel his booking before starting time of booked slot.          
     * Driver can extend his booking if extra slots are available.  
   
