@@ -8,7 +8,10 @@ There are two web apps: 1] for Driver(Employee or Visitor)       2] for Administ
   Visitor or Employee can login through this app and able to book their parking slot for particular amount of time.     
   For visitor, First he have to send request to admin for a specific day(s) . If admin accepted that request then only he can     book a slot.         
   Driver can cancel his booking before starting time of booked slot.          
-  Driver can extend his booking if extra slots are available.         
+  Driver can extend his booking if extra slots are available.  
+  
+  
+              
 
 2] Web app for Administrator : VehicleParkingSystem
 
