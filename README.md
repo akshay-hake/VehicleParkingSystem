@@ -21,4 +21,5 @@ There are two web apps: 1] for Driver(Employee or Visitor)       2] for Administ
     * Admin can do registration of Employee or visitor.             
     * Admin will accept requests from visitor.           
     * Admin can collect payment also.          
-    * Admin will handle Pre-booking.          
+    * Admin will handle Pre-booking.  
+    
